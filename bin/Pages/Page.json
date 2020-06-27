@@ -1,0 +1,1 @@
+{"type":"Scene","props":{"width":640,"runtime":"scene/Page/Page.ts","height":1136},"compId":2,"child":[{"type":"Label","props":{"y":548,"x":220,"width":200,"var":"pageName","text":"Page","height":0,"fontSize":40,"color":"#ffffff","align":"center"},"compId":3}],"loadList":[],"loadList3D":[]}

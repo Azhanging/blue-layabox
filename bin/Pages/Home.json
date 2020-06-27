@@ -1,0 +1,1 @@
+{"type":"Scene","props":{"width":640,"runtime":"scene/Home/Home.ts","height":1136},"compId":2,"child":[{"type":"Button","props":{"y":518,"x":170,"width":300,"var":"startBtn","skin":"comp/button.png","labelSize":30,"labelColors":"#fff","label":"开始","height":100},"compId":4}],"loadList":["comp/button.png"],"loadList3D":[]}
