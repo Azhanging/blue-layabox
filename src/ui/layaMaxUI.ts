@@ -3,3 +3,25 @@ import View=Laya.View;
 import Dialog=Laya.Dialog;
 import Scene=Laya.Scene;
 var REG: Function = Laya.ClassUtils.regClass;
+export module ui.Pages {
+    export class HomeUI extends Laya.Scene {
+		public startBtn:Laya.Button;
+        constructor(){ super()}
+        createChildren():void {
+            super.createChildren();
+            this.loadScene("Pages/Home");
+        }
+    }
+    REG("ui.Pages.HomeUI",HomeUI);
+    export class PageUI extends Laya.Scene {
+		public pageName:Laya.Label;
+		public text:laya.display.Text;
+		public label:Laya.Label;
+        constructor(){ super()}
+        createChildren():void {
+            super.createChildren();
+            this.loadScene("Pages/Page");
+        }
+    }
+    REG("ui.Pages.PageUI",PageUI);
+}

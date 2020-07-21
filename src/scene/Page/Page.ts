@@ -1,6 +1,6 @@
-export default class extends Laya.Scene {
-	private pageName: Laya.Label;
+import {ui} from '../../ui/layaMaxUI';
 
+export default class extends ui.Pages.PageUI {
 	constructor () {
 		super();
 	}

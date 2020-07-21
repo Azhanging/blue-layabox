@@ -1,6 +1,6 @@
-export default class extends Laya.Scene {
-	private startBtn: Laya.UIComponent;
+import {ui} from '../../ui/layaMaxUI';
 
+export default class extends ui.Pages.HomeUI {
 	constructor () {
 		super();
 	}
