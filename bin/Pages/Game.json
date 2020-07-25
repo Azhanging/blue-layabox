@@ -1,0 +1,1 @@
+{"type":"Scene","props":{"width":640,"runtime":"scene/Game/Game.ts","height":1136},"compId":2,"child":[{"type":"Script","props":{"runtime":"scene/Game/script.ts"},"compId":17},{"type":"Text","props":{"zOrder":1000,"y":14,"x":24.651515151514015,"var":"backBtn","text":"<返回","fontSize":30,"color":"#ffffff","runtime":"laya.display.Text"},"compId":23}],"loadList":[],"loadList3D":[]}

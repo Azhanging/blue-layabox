@@ -2,11 +2,11 @@
     "x":0,
     "type":"Scene",
     "selectedBox":2,
-    "selecteID":4,
+    "selecteID":7,
     "searchKey":"Scene",
     "props":{"width":640,"sceneColor":"#000000","runtime":"scene/Home/Home.ts","height":1136},
     "nodeParent":-1,
-    "maxID":5,
+    "maxID":11,
     "label":"Scene",
     "isOpen":true,
     "isDirectory":true,
@@ -16,15 +16,57 @@
     "child":[
         {
             "x":15,
-            "type":"Button",
-            "searchKey":"Button,startBtn",
-            "props":{"y":518,"x":170,"width":300,"var":"startBtn","skin":"comp/button.png","labelSize":30,"labelColors":"#fff","label":"开始","height":100},
+            "type":"Sprite",
+            "searchKey":"Sprite,startBtn",
+            "props":{"y":528,"x":220,"width":200,"var":"startBtn","height":80},
             "nodeParent":2,
             "label":"startBtn",
+            "isOpen":true,
+            "isDirectory":true,
+            "isAniNode":true,
+            "hasChild":true,
+            "compId":7,
+            "child":[
+                {
+                    "x":30,
+                    "type":"Rect",
+                    "searchKey":"Rect",
+                    "props":{"y":0,"x":0,"width":200,"lineWidth":1,"height":80,"fillColor":"#0099ff"},
+                    "nodeParent":7,
+                    "label":"Rect",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":6,
+                    "child":[
+                        ]
+                },
+                {
+                    "x":30,
+                    "type":"Text",
+                    "searchKey":"Text",
+                    "props":{"y":25,"x":40,"text":"开始游戏","fontSize":30,"color":"#ffffff"},
+                    "nodeParent":7,
+                    "label":"Text",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":8,
+                    "child":[
+                        ]
+                }]
+        },
+        {
+            "x":15,
+            "type":"Text",
+            "searchKey":"Text",
+            "props":{"y":176,"x":245,"text":"看数点","fontSize":50,"font":"SimHei","color":"#ffffff"},
+            "nodeParent":2,
+            "label":"Text",
             "isDirectory":false,
             "isAniNode":true,
             "hasChild":false,
-            "compId":4,
+            "compId":9,
             "child":[
                 ]
         }],
